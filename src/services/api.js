@@ -3,7 +3,7 @@ import { message } from 'antd';
 import dayjs from 'dayjs';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://taskbackend-sxua.onrender.com/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
